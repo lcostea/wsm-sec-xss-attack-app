@@ -7,7 +7,7 @@ const stolenData = [];
 let maliciousLink = '';
 
 app.use(cors());
-
+app.disable('x-powered-by');
 app.set('views', './views');
 app.set('view engine', 'ejs');
 
